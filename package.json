@@ -14,9 +14,9 @@
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/provider-upload-aws-s3": "^4.12.5",
     "@strapi/strapi": "4.12.5",
-    "better-sqlite3": "8.5.0",
+    "better-sqlite3": "^8.5.2",
     "dotenv": "^16.3.1",
-    "strapi-provider-upload-aws-s3": "^3.6.11",
+    "pg": "^8.11.3",
     "stripe": "^13.2.0"
   },
   "author": {
@@ -26,7 +26,7 @@
     "uuid": "7434836f-af86-4b58-98ef-641afa92088a"
   },
   "engines": {
-    "node": ">=16.0.0 <=20.x.x",
+    "node": "16.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
